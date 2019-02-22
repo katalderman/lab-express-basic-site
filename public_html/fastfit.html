@@ -1,0 +1,224 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Kat Alderman - UX/UI Designer - UXKat.co</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="css/styles.css" />
+		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+		<link rel="icon" href="/favicon.ico" type="image/x-icon">
+		<link href="css/ninja-slider.css" rel="stylesheet" type="text/css" />
+		<script src="scripts/ninja-slider.js" type="text/javascript"></script>
+
+<script>
+	function lightbox(idx) {
+		//show the slider's wrapper: this is required when the transitionType has been set to "slide" in the ninja-slider.js
+		var ninjaSldr = document.getElementById("ninja-slider");
+		ninjaSldr.parentNode.style.display = "block";
+
+		nslider.init(idx);
+
+		var fsBtn = document.getElementById("fsBtn");
+		fsBtn.click();
+	}
+
+	function fsIconClick(isFullscreen, ninjaSldr) { //fsIconClick is the default event handler of the fullscreen button
+		if (isFullscreen) {
+			ninjaSldr.parentNode.style.display = "none";
+		}
+	}
+</script>
+
+	</head>
+	<body>
+
+			<!-- Navigation -->
+			<header id="headernavigation">
+				<div class="inner">
+					<a href="index.html" class="logo">uxkat.co</a>
+					<nav id="nav">
+						<a href="index.html#portfolio">UI/UX and Web Development</a>
+						<a href="about.html">About Me</a>
+						<a href="https://drive.google.com/open?id=1VSCyv28YPvHrFDfo7-Dj24zR9qJRJTKW">Resume</a>
+						<a href="#formanchor">Contact</a>
+					</nav>
+				</div>
+			</header>
+			<a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+
+
+		<!-- Jumbotron -->
+			<header id="headerfastfit" class="alt">
+				<div class="inner">
+					<h1>fastfit</h1>
+					<p>workouts for busy people</a></p>
+					<ul class="actions">
+							<!-- <li><a href="#formanchor" class="button big white">Hire Me</a></li> -->
+						</ul>
+				</div>
+			</header>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+        <!-- Main -->
+
+          <section id="main" class="main">
+              <h2>Project Requirements</h2>
+            <!-- <img src="images/fastfit/XXX.png" class="projectshot"> -->
+						<p>The National Wellness Institute wants to reimagine how people can adopt and maintain a routine that enhances their
+						well-being.</p>
+						<ul>
+							<li>Focus on a category that relates to personal well-being</li>
+							<li>Provide a way to track the user’s progress and push them to commit to a healthier lifestyle</li>
+							<li>UI should reflect a fresh, updated image</li>
+						</ul>
+
+<hr>
+
+						<h2>Competitive Landscape</h2>
+						<p>In the “Fitness Apps” segment, the number of users is expected to amount to 39.9M by 2021, an increase from 25.9M in
+						2017.<sup>3</sup></p>
+						<p>Android OS dominates the worldwide market with 87% market share<sup>2</sup>, while iOS holds 12%. In the United States, Android
+						holds 53% market share vs. 45% for iOS<sup>1</sup>.</p>
+						<footnote>
+							1. <a href="https://www.statista.com/outlook/313/109/fitness/united-states#market-driver">https://www.statista.com/outlook/313/109/fitness/united-states#market-driver</a><br>
+							2. <a href="https://www.statista.com/statistics/266572/market-share-held-by-smartphone-platforms-in-the-united-states/">https://www.statista.com/statistics/266572/market-share-held-by-smartphone-platforms-in-the-united-states/</a><br>
+							3. <a href="2016 IDC Tracker, Gartner, August 2016">2016 IDC Tracker, Gartner, August 2016</a><br>
+						</footnote>
+
+<hr>
+
+						<h2>Research</h2>
+
+						<h3>User Survey</h3>
+						<p>A survey was conducted to acquire information on fitness habits and usage of assisting devices like fitness apps. 44 respondents indicated the following:</p>
+						<ul>
+							<li>60% have "gymphobia"</li>
+							<li>52% are sedentary</li>
+							<li>44% don't have time for fitness</li>
+							<li>55% don't know what to do when they work out</li>
+							<li>47% want planned routines to follow in their workouts</li>
+						</ul>
+						<p>Additionally, users indicated they are motivated through youtube videos, music, and competition with other people.</p>
+
+<hr>
+
+						<h2>Problem Statement</h2>
+						<h3 class="h3quote">Busy, unsure or unmotivated people need a way to quickly work out because they don’t have the time, expertise or
+						motivation to do so on their own.</h3>
+
+<hr>
+
+						<h2>Planned Features</h2>
+						<p>Fastfit will motivate and guide users by offering the following features:</p>
+
+						<ul>
+							<li>Pre-generated workout routines</li>
+						<li>Visual and audio guides</li>
+						<li>Achievement earning system</li>
+						<li>Encouraging notifications</li>
+						</ul>
+
+<hr>
+
+<!--start-->
+<div style="display:none;">
+	<div id="ninja-slider">
+		<div class="slider-inner">
+			<ul>
+				<li>
+					<a class="ns-img" href="images/fastfit/FastFit_UserPersona-BusyBeth.png"></a>
+					<div class="caption">
+						<h3></h3>
+						<p>User persona for "Busy Beth"</p>
+					</div>
+				</li>
+				<li>
+					<a class="ns-img" href="images/fastfit/FastFit_User_Journey.png"></a>
+					<div class="caption">
+						<h3></h3>
+						<p>User journey for "Busy Beth"</p>
+					</div>
+				</li>
+			</ul>
+			<div id="fsBtn" class="fs-icon" title="Expand/Close"></div>
+		</div>
+	</div>
+</div>
+
+<!--Thumbnail gallery -- <div style="max-width:700px;margin:90px auto;">-->
+	<div>
+	<h2>Persona and User Journey</h2>
+	<!-- <br /><br /> -->
+	<div class="gallery">
+		<img src="images/fastfit/FastFit_UserPersona-BusyBeth.png" onclick="lightbox(0)" style="width:auto; height:140px;" />
+		<img src="images/fastfit/FastFit_User_Journey.png" onclick="lightbox(1)" style="width:auto; height:140px;" /><br />
+
+	</div>
+</div>
+<!--end-->
+<hr>
+						<h3>Hand Sketches</h3>
+						<img src="images/fastfit/FastFit_HandSketches.png" width="100%">
+
+						<h3>Final Solution</h3>
+						<div class="video-responsive">
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/0ulq-FnJBbA?rel=0" frameborder="0" allow="autoplay; encrypted-media"
+							 allowfullscreen></iframe>
+						</div>
+            <hr>
+
+          </section>
+
+				 <!-- Footer -->
+					 <section id="footerform">
+						 <a name="formanchor"></a>
+						 <div class="inner">
+							 <header>
+								 <h2>Get in Touch</h2>
+							 </header>
+							 <form method="post" action="#" method="POST">
+								 <div class="field half first">
+									 <label for="name">Name</label>
+									 <input type="text" name="name" id="name" />
+								 </div>
+								 <div class="field half">
+									 <label for="email">Email</label>
+									 <input type="text" name="email" id="email" />
+								 </div>
+								 <div class="field">
+									 <label for="message">Message</label>
+									 <textarea name="message" id="message" rows="6"></textarea>
+								 </div>
+								 <ul class="actions">
+									 <li><input type="submit" value="Send Message" class="alt" /></li>
+								 </ul>
+							 </form>
+						 </div>
+					 </section>
+
+					 <!-- Footer -->
+	 				<footer id="footer">
+	 					<ul class="icons">
+	 						<li><a href="https://www.medium.com/@katalderman" class="icon fa-medium"><span class="label">Medium</span></a></li>
+	 						<li><a href="https://github.com/katalderman" class="icon fa-github"><span class="label">Github</span></a></li>
+	 						<li><a href="http://www.linkedin.com/in/katalderman" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+	 						<li><a href="mailto:kat@uxkat.co" class="icon fa-envelope"><span class="label">Email</span></a></li>
+	 					</ul>
+	 				</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="scripts/jquery.min.js"></script>
+			<script src="scripts/skel.min.js"></script>
+			<script src="scripts/util.js"></script>
+			<script src="scripts/scripts.js"></script>
+<script>
+			$(document).ready(function() {
+			$('.image-link').magnificPopup({type:'image'});
+			});
+</script>
+	</body>
+</html>
